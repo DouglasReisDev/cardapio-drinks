@@ -4,56 +4,57 @@ const drinks = [
     alcool: true,
     descricao: "Tequila, Cointreau e suco de limão.",
     imagem: "imagens/margarita.png",
-    receita: "1 Em uma coqueteleira, coloque gelo, o açúcar, o Cointreau, o suco de limão e a tequila. Agite até o copo ficar gelado ---- 2 Passe limão na borda do copo. Coloque sal em um prato raso e mergulhe a borda do copo. ---- 3 Coloque o drinque no copo, sem o gelo ."
+    receita: "Em uma coqueteleira com gelo, adicione 50 ml de tequila, 25 ml de licor de laranja (Cointreau ou Triple Sec) e 25 ml de suco de limão fresco. Agite bem. Sirva coado em um copo com a borda salgada e decore com uma rodela de limão."
   },
   {
     nome: "Martini",
     alcool: true,
     descricao: "Gin e vermute seco.",
     imagem: "imagens/martini.png",
-    receita: "1. Misture gin e vermute com gelo. 2. Coe para taça e adicione azeitona."
+    receita: "Em um Copo Mixing Glass com gelo, adicione 60 ml de gin e 10 ml de vermute seco. Mexa suavemente por 20 segundos e coe para uma taça de coquetel gelada. Finalize com uma azeitona ou twist de limão para decorar.   ."
   },
   {
     nome: "Negroni",
     alcool: true,
     descricao: "Gin, Campari e vermute rosso.",
     imagem: "imagens/negroni.png",
-    receita: "1. Misture os ingredientes com gelo. 2. Sirva com fatia de laranja."
+    receita: "Em um copo baixo com gelo, adicione 30 ml de gin, 30 ml de vermute rosso e 30 ml de Campari. Mexa suavemente por alguns segundos e decore com uma casca de laranja."
   },
   {
     nome: "Old Fashioned",
     alcool: true,
     descricao: "Whisky, açúcar e angostura.",
     imagem: "imagens/old-fashioned.png",
-    receita: "1. Amasse o açúcar com angostura. 2. Adicione whisky e gelo."
+    receita: "Em copo baixo, dissolva 1 torrão de açúcar, 2-3 dashes de Angostura e um pouco de água. Adicione 60 ml de bourbon e gelo. Mexa e decore com casca de laranja."
   },
   {
     nome: "Daiquiri",
     alcool: true,
     descricao: "Rum, limão e açúcar.",
     imagem: "imagens/daiquiri.png",
-    receita: "1. Bata tudo com gelo. 2. Coe para taça gelada."
+    receita: "Em uma coqueteleira com gelo, adicione 50 ml de rum branco, 25 ml de suco de limão fresco e 15 ml de xarope de açúcar. Agite bem, coe para uma taça gelada e sirva sem gelo."
   },
+
   {
     nome: "Caipirinha",
     alcool: true,
     descricao: "Cachaça, limão e açúcar.",
     imagem: "imagens/caipirinha.png",
-    receita: "1. Amasse limão e açúcar. 2. Adicione cachaça e gelo."
+    receita: "Macere 1 limão em pedaços com 2 colheres de açúcar, adicione 50 ml de cachaça e bastante gelo. Mexa bem e sirva."
   },
   {
     nome: "Cosmopolitan",
     alcool: true,
     descricao: "Vodka, Cointreau, limão e cranberry.",
     imagem: "imagens/cosmopolitan.png",
-    receita: "1. Bata tudo com gelo. 2. Coe e sirva com casca de laranja."
+    receita: "Agite com gelo 40 ml de vodka, 15 ml de licor de laranja, 15 ml de suco de limão e 30 ml de suco de cranberry. Coe para taça gelada e decore com casca de laranja."
   },
   {
     nome: "Manhattan",
     alcool: true,
     descricao: "Whisky, vermute e angostura.",
     imagem: "imagens/manhattan.png",
-    receita: "1. Misture com gelo. 2. Coe e decore com cereja."
+    receita: "Misture em copo com gelo 50 ml de whisky, 20 ml de vermute rosso e 2 dashes de Angostura. Mexa, coe e sirva em taça com cereja."
   },
   
   {
@@ -61,14 +62,15 @@ const drinks = [
     alcool: true,
     descricao: "Rum, hortelã, limão e água com gás.",
     imagem: "imagens/mojito.png",
-    receita: "1. Amasse hortelã e limão. 2. Adicione rum e água com gás."
+    receita: "Macere 8 folhas de hortelã, 1 colher de açúcar e 25 ml de suco de limão. Adicione 50 ml de rum branco, gelo e complete com água com gás. Mexa e decore com hortelã."
   },
+  
   {
     nome: "Whisky Sour",
     alcool: true,
     descricao: "Whisky, limão e açúcar.",
     imagem: "imagens/whisky-sour.png",
-    receita: "1. Bata tudo com gelo. 2. Coe para um copo com gelo."
+    receita: "Agite com gelo 50 ml de whisky, 25 ml de suco de limão, 20 ml de xarope de açúcar e opcionalmente 1 clara de ovo. Coe para copo com gelo e decore com limão ou cereja"
   },
   
   {
@@ -76,58 +78,58 @@ const drinks = [
     alcool: true,
     descricao: "Rum, abacaxi e leite de coco.",
     imagem: "imagens/pina-colada.png",
-    receita: "1. Bata tudo com gelo. 2. Sirva com pedaço de abacaxi."
+    receita: "Bata no liquidificador com gelo 50 ml de rum branco, 30 ml de leite de coco e 90 ml de suco de abacaxi. Sirva em copo alto e decore com abacaxi e cereja (opcional)."
   },
   {
     nome: "Gin Tônica",
     alcool: true,
     descricao: "Gin e água tônica.",
     imagem: "imagens/gin-tonica.png",
-    receita: "1. Sirva gin com gelo e complete com água tônica. 2 Para sabores adicione frutas masseradas ou xarope. "
+    receita: "Em um copo alto com bastante gelo, adicione 50 ml de gin, complete com água tônica e aromatize com ingredientes como limão, morango, pepino, hortelã, alecrim, zimbro ou especiarias. Mexa suavemente e sirva "
   },
   {
     nome: "Cuba Libre",
     alcool: true,
     descricao: "Rum, coca-cola e limão.",
     imagem: "imagens/cuba-libre.png",
-    receita: "1. Misture com gelo e adicione fatia de limão."
+    receita: "Em um copo alto com gelo, adicione 50 ml de rum branco, suco de meio limão e complete com refrigerante de cola. Mexa levemente e decore com fatia de limão"
   },
   {
     nome: "Tequila Sunrise",
     alcool: true,
     descricao: "Tequila, suco de laranja e grenadine.",
     imagem: "imagens/tequila-sunrise.png",
-    receita: "1. Misture tequila e laranja. 2. Adicione grenadine lentamente."
+    receita: "Em um copo alto com gelo, adicione 50 ml de tequila e 100 ml de suco de laranja. Mexa levemente e adicione 15 ml de grenadine cuidadosamente para criar o efeito degradê. Decore com fatia de laranja ou cereja."
   },
   {
     nome: "Sex on the Beach",
     alcool: true,
     descricao: "Vodka, licor de pêssego, laranja e cranberry.",
     imagem: "imagens/sex-on-the-beach.png",
-    receita: "1. Misture tudo com gelo e sirva decorado."
+    receita: "Em um copo alto com gelo, adicione 40 ml de vodka, 20 ml de licor de pêssego, 40 ml de suco de laranja e 40 ml de suco de cranberry. Mexa levemente e decore com fatia de laranja ou cereja."
   },
   {
     nome: "Aperol Spritz",
     alcool: true,
     descricao: "Aperol, prosecco e água com gás.",
     imagem: "imagens/aperol-spritz.png",
-    receita: "1. Misture e adicione fatia de laranja."
+    receita: "Em uma taça grande com gelo, adicione 90 ml de espumante brut, 60 ml de Aperol e 30 ml de água com gás. Mexa suavemente e decore com fatia de laranja."
   },
   {
     nome: "Long Island Iced Tea",
     alcool: true,
     descricao: "Vodka, gin, rum, tequila, triple sec e coca.",
     imagem: "imagens/long-island.png",
-    receita: "1. Misture todos os ingredientes. 2. Sirva com limão."
+    receita: "Em um copo alto com gelo, adicione 15 ml de vodka, 15 ml de rum branco, 15 ml de gin, 15 ml de tequila, 15 ml de licor de laranja, 25 ml de suco de limão e 15 ml de xarope de açúcar. Complete com refrigerante de cola, mexa levemente e decore com fatia de limão."
   }, 
-    {
+    
+  {
     nome: "Moscow-Mule",
     alcool: true,
     descricao: "Vodka,limão, xarope de açucar e espuma de genbibre   .",
     imagem: "imagens/moscow-mule.png",
-    receita: "1 -Na caneca com gelo, adicione: 50 ml de vodka, 30ml de suco de limão, 30 ml de xarope de açucar e por cima coloque a espuma de gengibre."
+    receita: " Em uma caneca metálica ou copo baixo com gelo, adicione 50 ml de vodka, 25 ml de suco de limão fresco e 10 ml de xarope de açúcar. Complete com gengibirra artesanal ou espuma de gengibre por cima. Finalize com raspas de limão ou hortelã."
   },
-
 
   {
   nome: "Virgin Mojito",
