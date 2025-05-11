@@ -119,7 +119,16 @@ const drinks = [
     descricao: "Vodka, gin, rum, tequila, triple sec e coca.",
     imagem: "imagens/long-island.png",
     receita: "1. Misture todos os ingredientes. 2. Sirva com limão."
+  }, 
+    {
+    nome: "Moscow-Mule",
+    alcool: true,
+    descricao: "Vodka,limão, xarope de açucar e espuma de genbibre   .",
+    imagem: "imagens/moscow-mule.png",
+    receita: "1 -Na caneca com gelo, adicione: 50 ml de vodka, 30ml de suco de limão, 30 ml de xarope de açucar e por cima coloque a espuma de gengibre."
   },
+
+
   {
   nome: "Virgin Mojito",
   alcool: false,
