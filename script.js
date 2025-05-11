@@ -136,35 +136,35 @@ const drinks = [
   alcool: false,
   descricao: "Hortelã, limão, açúcar e água com gás.",
   imagem: "imagens/virgin-mojito.png",
-  receita: "1. Amasse hortelã com limão e açúcar. 2. Adicione gelo e complete com água com gás."
+  receita: " Macere 8 folhas de hortelã com 2 colheres de chá de açúcar e 30 ml de suco de limão. Adicione gelo e complete com água com gás ou soda limonada. Mexa suavemente e decore com hortelã e rodela de limão."
 },
 {
   nome: "Pink Lemonade",
   alcool: false,
   descricao: "Suco de limão, xarope de cranberry e soda.",
   imagem: "imagens/pink-lemonade.png",
-  receita: "1. Misture o suco de limão com o xarope e complete com soda."
+  receita: "Em um copo alto com gelo, misture 100 ml de suco de limão, 100 ml de água e 30 ml de xarope de cranberry ou grenadine. Adoce a gosto, mexa bem e decore com rodelas de limão e frutas vermelhas.."
 },
 {
   nome: "Limonada Suíça",
   alcool: false,
   descricao: "Limão batido com água e açúcar.",
   imagem: "imagens/limonada-suica.png",
-  receita: "1. Bata limão com água e açúcar. 2. Sirva com gelo."
+  receita: "Bata no liquidificador 2 limões com casca (sem sementes), 500 ml de água gelada, 2 colheres de sopa de açúcar e gelo a gosto. Coe e sirva. Para a versão cremosa, adicione 2 colheres de sopa de leite condensado antes de bater."
 },
 {
   nome: "Coquetel de Frutas",
   alcool: false,
   descricao: "Suco de laranja, abacaxi, grenadine e frutas.",
   imagem: "imagens/coquetel-frutas.png",
-  receita: "1. Misture os sucos com gelo. 2. Decore com frutas."
+  receita: "Em uma coqueteleira com gelo, adicione 50 ml de suco de laranja, 30 ml de suco de abacaxi, 20 ml de groselha ou grenadine e 15 ml de leite condensado (opcional). Agite bem, sirva em copo longo com gelo e decore com frutas picadas ou cereja."
 },
 {
   nome: "Smoothie de Morango",
   alcool: false,
   descricao: "Morango, iogurte e mel.",
   imagem: "imagens/smoothie-morango.png",
-  receita: "1. Bata tudo no liquidificador. 2. Sirva gelado."
+  receita: "Bata no liquidificador 1 xícara de morangos congelados, 100 ml de leite ou bebida vegetal, 1 colher de sopa de mel ou açúcar e gelo a gosto. Sirva cremoso em copo alto e decore com morangos frescos."
 }
 
 ] 
